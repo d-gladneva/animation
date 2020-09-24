@@ -1,0 +1,50 @@
+.devil, .hedgehog {
+    display: none;
+    position: relative;
+}
+.devil img{
+    width: 350px;
+    height: auto;
+}
+.hedgehog img {
+    width: 250px;
+    height: auto;
+}
+
+.rip img {
+    width: 250px;
+    height: auto;
+}
+
+.hedgehog{
+    z-index: 11;
+}
+.bg {
+    /*display: flex;*/
+    align-items: center;
+    width: 950px;
+    height: 650px;
+    background-color: #005cbf;
+    box-sizing: border-box;
+}
+.rip {
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    display: none;
+}
+.btns {
+    position: absolute;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    display: block;
+    margin: 0 auto;
+}
+.btn {
+
+    width: 150px;
+    height: 60px;
+}
+.reset {
+    display: none;
+}
